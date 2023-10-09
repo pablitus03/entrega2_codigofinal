@@ -36,5 +36,3 @@ if frase:
 
     # Reproduce el archivo de audio
     st.audio(temp_audio_file, format="audio/mp3")
-
-
