@@ -27,8 +27,7 @@ st.write("""
 -Bengalí (bn)
 -Portugués (pt)
 -Ruso (ru)
--Japonés (ja)
--Punjabi (pa):")
+-Japonés (ja):")
 """)
 idioma_destino = st.text_input("Que idioma quieres")
 
