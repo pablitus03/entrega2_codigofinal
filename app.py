@@ -4,7 +4,7 @@ from gtts import gTTS
 import streamlit as st
 
 
-st.subheader("Texto a audio y traducción.")
+
 
 # Solicita la frase y el idioma de destino
 frase = st.text_input("Ingresa la frase que quieres traducir:")
