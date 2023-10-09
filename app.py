@@ -16,9 +16,8 @@ Esta aplicación te permite traducir una frase a otro idioma y convertirla en au
 Ingresa una frase y selecciona el idioma de destino para comenzar.
 """)
 
-# Solicita la frase y el idioma de destino
 frase = st.text_input("Ingresa la frase que quieres traducir:")
-idioma_destino = st.selectbox("Selecciona el idioma de destino:", ["es", "fr", "de", "ja", "zh", "ar"])
+idioma_destino = st.text_input("Ingresa el idioma de destino (por ejemplo, 'es' para español):")
 
 
 
