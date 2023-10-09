@@ -21,9 +21,6 @@ frase = st.text_input("Ingresa la frase que quieres traducir:")
 idioma_destino = st.selectbox("Selecciona el idioma de destino:", ["es", "fr", "de", "ja", "zh", "ar"])
 
 
-# Solicita la frase y el idioma de destino
-frase = st.text_input("Ingresa la frase que quieres traducir:")
-idioma_destino = st.text_input("Ingresa el idioma de destino (por ejemplo, 'es' para español):")
 
 # Verifica si se ingresó una frase y un idioma de destino
 if frase and idioma_destino:
