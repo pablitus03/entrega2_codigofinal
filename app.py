@@ -37,5 +37,4 @@ if frase:
     # Reproduce el archivo de audio
     st.audio(temp_audio_file, format="audio/mp3")
 
-# Agrega una imagen
-st.image("f.elconfidencial.com_original_dcb_2ec_4cd_dcb2ec4cdf6f22c253616bc0d463e6f0.jpg", caption="Imagen de ejemplo", use_column_width=True)
+
