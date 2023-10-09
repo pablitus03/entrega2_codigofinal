@@ -17,7 +17,17 @@ Ingresa una frase y selecciona el idioma de destino para comenzar.
 """)
 
 frase = st.text_input("Ingresa la frase que quieres traducir:")
-idioma_destino = st.text_input("Ingresa el idioma de destino (por ejemplo, 'es' para español):")
+idioma_destino = st.text_input("Ingresa el diminutivo del idioma al que quieres traducir, si no te lo sabes, aqui te doy un ejemplo de los mas conocidos
+Chino Mandarin (zh)
+Español (es)
+Inglés (en)
+Hindi (hi)
+Árabe (ar)
+Bengalí (bn)
+Portugués (pt)
+Ruso (ru)
+Japonés (ja)
+Punjabi (pa):")
 
 
 
