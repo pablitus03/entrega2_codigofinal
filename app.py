@@ -3,6 +3,9 @@ from googletrans import Translator
 from gtts import gTTS
 import streamlit as st
 
+
+st.subheader("Texto a audio y traducción.")
+text = st.text_input("Ingrese el texto:")
 # Solicita la frase y el idioma de destino
 frase = st.text_input("Ingresa la frase que quieres traducir:")
 idioma_destino = st.text_input("Ingresa el idioma de destino (por ejemplo, 'es' para español):")
